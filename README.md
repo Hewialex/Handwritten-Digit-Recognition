@@ -28,16 +28,21 @@ To set up the project locally, follow these steps:
    git clone [https://github.com/Hewialex/Handwritten-Digit-Recognition]
    cd ["C:\Users\PC\Desktop\AIML"]
 
-2. Install the required packages: Make sure you have Python installed, then install the necessary libraries using pip:
+2. **Install the required packages**:
+3. **Make sure you have Python installed, then install the necessary libraries using pip**:
    pip install tensorflow opencv-python numpy streamlit pillow
-3. Run the application: Start the Streamlit application with the following command:
+4. **Run the application**:
+   Start the Streamlit application with the following command:
    streamlit run [Hand written digit recognition].py
-Usage
+   
+**Usage**
+
 Once the application is running, navigate to the provided local URL (usually http://localhost:8501).
 Upload a handwritten digit image (28x28 pixels recommended).
 Click on the "Predict" button to classify the digit.
 The predicted result will be displayed on the screen.
-Model Training
+
+**Model Training**
 The model was trained on the MNIST dataset, which consists of 60,000 training images and 10,000 testing images of handwritten digits. The model architecture consists of:
 
 Input layer: Flattens the 28x28 pixel images.
@@ -45,9 +50,11 @@ Two hidden layers: Each with 128 neurons and ReLU activation function.
 Output layer: 10 neurons with softmax activation function to predict probabilities for each digit.
 The model was trained for 3 epochs.
 
-Future Improvements
+**Future Improvements**
+
 Enhance the model by experimenting with more complex architectures (e.g., Convolutional layers).
 Improve the user interface for better usability.
 Add features for continuous learning based on user feedback.
-Author
+
+**Author**
 Hewan Alemayehu
