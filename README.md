@@ -24,9 +24,8 @@ This project is a Handwritten Digit Recognition application that uses a Convolut
 To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
-   ```bash
-   git clone [https://github.com/Hewialex/Handwritten-Digit-Recognition]
-   cd ["C:\Users\PC\Desktop\AIML"]
+   git clone https://github.com/Hewialex/Handwritten-Digit-Recognition
+   cd "C:\Users\PC\Desktop\AIML"
 
 2. **Install the required packages**:
 3. **Make sure you have Python installed, then install the necessary libraries using pip**:
